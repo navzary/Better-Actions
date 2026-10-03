@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "better-actions",
+	"version": "${version}",
+	"name": "Better Actions",
+	"description": "Makes placing and breaking blocks faster and more responsive.",
+	"authors": ["navzary"],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/better-actions",
+		"curseforge": "https://www.curseforge.com/minecraft/mc-mods/better-actions",
+		"sources": "https://github.com/navzary/better-actions"
+	},
+	"license": "ARR",
+	"icon": "assets/better-actions/icon.png",
+	"environment": "*",
+	"mixins": ["better-actions.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

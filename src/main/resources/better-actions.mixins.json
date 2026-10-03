@@ -1,0 +1,7 @@
+{
+	"required": true,
+	"package": "net.nav.betteractions",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["BetterActions","BetterActionsBreaking"],
+	"injectors": {"defaultRequire": 1}
+}
